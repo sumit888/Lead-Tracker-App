@@ -9,7 +9,6 @@
 
 //Step 1 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js"; //firebase Import Code
-import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js"; //Step 5 code after setting up realtime database
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js"; //Step 5 code after setting up realtime database //step 7 add onValue function which helps in fetching the data
 
 //Step 2
