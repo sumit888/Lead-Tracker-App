@@ -9,7 +9,7 @@
 
 //Step 1 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js"; //firebase Import Code
-import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js"; //Step 5 
+import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js"; //Step 5 code after setting up realtime database
 
 //Step 2
 const firebaseConfig = { //configuration details for required feature i.e. realtime database
