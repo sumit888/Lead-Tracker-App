@@ -62,9 +62,10 @@ function render(leads) {
     ulEl.innerHTML = listItems
 }
 
-deleteBtn.addEventListener("dblclick", function() {
+deleteBtn.addEventListener("click", function() {
     remove(referenceInDb)
     ulEl.innerHTML = ""
+    render(leads)
 })
 
 inputBtn.addEventListener("click", function() {

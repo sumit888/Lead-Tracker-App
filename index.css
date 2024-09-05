@@ -1,8 +1,21 @@
 body {
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 302px;
+}
+
+h1{
+    background-color: #5f9341;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1em;
+    padding-block: 0.2em;
+}
+
+.container{
+    padding-inline: 0.8em;
 }
 
 input {
@@ -10,13 +23,13 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #5f9341;
-    margin-bottom: 4px;
+    margin-block:  4px;
 }
 
 label{
     color: #5f9341;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 button {
@@ -30,6 +43,7 @@ button {
 #delete-btn {
     background: white;
     color: #5f9341;
+    margin-top: 1rem;
 }
 
 ul {
